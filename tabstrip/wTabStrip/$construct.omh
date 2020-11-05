@@ -1,0 +1,19 @@
+# Enter your initialization code here
+
+Do iHorizTabModes.$define(iHorizTabMode)
+Do iHorizTabModes.$add(kTabStripOriginal)
+Do iHorizTabModes.$add(kTabStripSquare)
+Do iHorizTabModes.$add(kTabStripAnimSquare)
+Do iHorizTabModes.$add(kTabStripAnimLine)
+Do iHorizTabModes.$add(kTabStripAnimDot)
+Do iHorizTabModes.$add(kTabStripAnimRndSquare)
+Do iHorizTabModes.$line.$assign(3)
+Do method setHorzTabMode
+
+Do iVertTabModes.$define(iVertTabMode)
+Do iVertTabModes.$add(kTabStripAnimSquare)
+Do iVertTabModes.$add(kTabStripAnimLine)
+Do iVertTabModes.$add(kTabStripAnimDot)
+Do iVertTabModes.$add(kTabStripAnimRndSquare)
+Do iVertTabModes.$line.$assign(4)
+Do method setVertTabMode

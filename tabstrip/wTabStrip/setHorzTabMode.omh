@@ -1,0 +1,7 @@
+Do iHorizTabModes.$loadcols()
+Do $cinst.$objs.HorizTab.$squaremode.$assign(iHorizTabMode)
+If iHorizTabMode=kTabStripOriginal
+	Do $cinst.$objs.HorizTab.$showedge.$assign(kTrue)
+Else
+	Do $cinst.$objs.HorizTab.$showedge.$assign(kFalse)
+End If

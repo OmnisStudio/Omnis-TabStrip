@@ -1,0 +1,2 @@
+Do iVertTabModes.$loadcols()
+Do $cinst.$objs.VertTab.$squaremode.$assign(iVertTabMode)
